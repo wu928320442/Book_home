@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "Home",
+    "name": "library",
     "type": "har",
     "deviceTypes": [
       "default",

@@ -33,12 +33,8 @@
       ]
     },
     {
-      "name": "Home",
-      "srcPath": "./Home"
-    },
-    {
-      "name": "Login",
-      "srcPath": "./Login"
+      "name": "library",
+      "srcPath": "./library"
     }
   ]
 }

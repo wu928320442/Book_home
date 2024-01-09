@@ -1,10 +1,12 @@
 import hilog from '@ohos.hilog';
-import testNapi from 'liblogin.so';
+import testNapi from 'libhome.so';
+import router from '@ohos.router';
+// import('../../../../../../Login/src/main/ets/components/mainpage/LoginPage');
 
-@Entry({routeName:'LoginPage'})
+@Entry({ routeName : 'home' })
 @Component
-export struct LoginPage {
-  @State message: string = 'Login';
+export struct HomePage {
+  @State message: string = 'Home\nclick to login';
 
   build() {
     Row() {
@@ -13,6 +15,7 @@ export struct LoginPage {
           .fontSize(50)
           .fontWeight(FontWeight.Bold)
           .onClick(() => {
+            // router.pushNamedRoute({name:'LoginPage'});
             // hilog.info(0x0000, 'testTag', 'Test NAPI 2 + 3 = %{public}d', testNapi.add(2, 3));
           })
       }

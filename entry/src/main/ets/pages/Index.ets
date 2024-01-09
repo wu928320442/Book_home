@@ -1,6 +1,6 @@
 import router from '@ohos.router';
 
-import('../../../../../Home/src/main/ets/components/mainpage/HomePage')
+import('../../../../../library/src/main/ets/components/mainpage/HomePage')
 
 @Entry
 @Component
