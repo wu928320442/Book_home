@@ -6,7 +6,7 @@ import router from '@ohos.router';
 @Entry({ routeName : 'home' })
 @Component
 export struct HomePage {
-  @State message: string = 'Home\nclick to login';
+  @State message: string = 'Welcome Home';
 
   build() {
     Row() {
